@@ -1,0 +1,21 @@
+@import "./variables";
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+   background-color: $color1;
+}
+a {
+    color: $color2;
+    margin: 0 15px;
+    &:hover {
+    color: $color3;
+}
+    
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 15px;
+}
